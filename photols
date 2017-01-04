@@ -1,0 +1,12 @@
+int diody[] = (10, 9, 8);   //tablica zawierająca piny LEDów
+int size = 3;               //rozmiar tablicy
+
+void setup() {
+
+  for (int i=1; i<size; i++) {
+    pinMode(diody[i], OUTPUT);
+  }
+}
+
+void loop() {
+
